@@ -1,0 +1,1 @@
+function factorial(r){for(var a=1,f=1;f<=r;f++)a*=f;return a}factorial(5);
