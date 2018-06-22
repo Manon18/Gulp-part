@@ -1,0 +1,6 @@
+body {
+  color: red; }
+  body h1 {
+    color: white; }
+    body h1 a {
+      color: green; }
