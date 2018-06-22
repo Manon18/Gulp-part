@@ -1,0 +1,1 @@
+function recursionFunc(n){0<=n&&recursionFunc(n-1)}recursionFunc(10);
