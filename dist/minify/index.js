@@ -1,0 +1,1 @@
+function countPersentage(a,b){return(b/100*a).toFixed(1)}countPersentage(1e3,47.12);
