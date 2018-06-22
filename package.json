@@ -1,0 +1,39 @@
+{
+  "name": "projectOne",
+  "version": "1.0.0",
+  "scripts": {
+    "message": "echo 'Pre Commit Started...'",
+    "lint": "./node_modules/.bin/eslint ./",
+    "csslint": "stylelint ./**/*.css"
+  },
+  "dependencies": {
+    "css-lint": "^1.0.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "numeral": "^2.0.6",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^9.3.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "gulp": "^3.9.1",
+    "gulp-babel-minify": "^0.4.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.1.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "pre-commit": [
+    "message",
+    "lint",
+    "csslint"
+  ]
+}
